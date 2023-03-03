@@ -18,5 +18,27 @@ public class Main {
         // sout + enter
         System.out.println(myDaughterAge);
 
+        // use camel case starting with lower letter
+        String myName = "Lina";
+        String mySurname = "Buin";
+        System.out.println(myName + " " + mySurname);
+
+        String five = "5";
+        String otherFive = "5";
+        System.out.println(five + otherFive);
+
+        // true and false
+        boolean trueValue = true;
+        trueValue = false;
+
+        System.out.println(trueValue);
+
+        // 11.0
+        int eleven = 11;
+
+        // double type for munber with fraction part
+        double trueEleven = 11.0;
+
+
     }
 }
