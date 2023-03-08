@@ -30,6 +30,14 @@ public class Exercise8 {
         int product = firstNumber * secondNumber;
         System.out.println("product is: " + product);
 
+        System.out.println("calculating quotient of two numbers");
+        firstNumber = inputReader.nextInt();
+        System.out.println("Provide second number: ");
+        secondNumber = inputReader.nextInt();
+        int quotient = firstNumber / secondNumber;
+        System.out.println("quotient is: " + quotient);
+
+
 
     }
 
