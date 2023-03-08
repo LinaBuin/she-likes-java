@@ -16,6 +16,22 @@ public class Exercise8 {
         int difference = firstNumber - secondNumber;
         System.out.println("Difference is: " + difference);
 
-        }
+        System.out.println("calculating sum of two numbers");
+        firstNumber = inputReader.nextInt();
+        System.out.println("Provide second number: ");
+        secondNumber = inputReader.nextInt();
+        int sum = firstNumber + secondNumber;
+        System.out.println("sum is: " + sum);
+
+        System.out.println("calculating product of two numbers");
+        firstNumber = inputReader.nextInt();
+        System.out.println("Provide second number: ");
+        secondNumber = inputReader.nextInt();
+        int product = firstNumber * secondNumber;
+        System.out.println("product is: " + product);
+
+
+    }
+
 
 }
