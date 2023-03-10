@@ -17,5 +17,12 @@ public class Exercise9 {
         } else {
             System.out.println("I'm calling your mom");
         }
+        System.out.println("Tell me your hight");
+        int personHight = inputReader.nextInt();
+        if (personHight >= 160) {
+            System.out.println("Wellcome");
+        } else {
+            System.out.println("I'm calling your mom");
+        }
     }
 }
