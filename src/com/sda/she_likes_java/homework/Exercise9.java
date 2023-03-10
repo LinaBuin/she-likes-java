@@ -12,6 +12,7 @@ public class Exercise9 {
         Scanner inputReader = new Scanner(System.in);
         System.out.println("Tell me how old are You");
         int personAge = inputReader.nextInt();
+
         if (personAge >= 16) {
             System.out.println("Wellcome");
         } else {
