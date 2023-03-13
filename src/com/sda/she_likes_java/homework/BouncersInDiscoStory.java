@@ -28,9 +28,10 @@ public class BouncersInDiscoStory {
         boolean canEnterTheParty = age >= 18 && height > 180 && isAbleToSingWell == true;
 
         if (canEnterTheParty) {
-            System.out.println("Welcome to party!!!");
-        } else {
+                System.out.println("Welcome to party!!!");
+            } else {
             System.out.println("Sorry, go home");
+
 
             System.out.println("I'll try with second bouncer");
 
