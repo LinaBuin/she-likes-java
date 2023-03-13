@@ -23,6 +23,6 @@ public class Exercise10 {
             System.out.println(declineMessage);
         } else {
             System.out.println("Wellcome");
-        }
+        }  
     }
 }

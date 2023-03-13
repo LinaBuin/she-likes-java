@@ -17,6 +17,7 @@ public class BouncerInDiscoVersion5DoubleAgeFromConsole {
         double height = inputReader.nextDouble();
         boolean isAllowedToParty = age >= 18 && height >= 200;
 
+
         if (!isAllowedToParty) {
             System.out.println(declineMessage);
         } else {
