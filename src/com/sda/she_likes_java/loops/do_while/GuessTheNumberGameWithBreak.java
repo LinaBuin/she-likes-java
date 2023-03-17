@@ -15,14 +15,19 @@ public class GuessTheNumberGameWithBreak {
         int userAnswer;
         System.out.println("Play game with me:)");
         do {
-            if (numberOfTrials <= 0) {
-                break;
-            }
             System.out.println("Guess a number between 1 and 20");
             userAnswer = inputReader.nextInt();
             numberOfTrials--;
+            if (numberOfTrials <= 0) {
+                System.out.println("No more trials...");
+                break;
+            }
         } while (userAnswer != someRandomNumber);
 
-        System.out.println("Great, You win!!!");
+        if (userAnswer == someRandomNumber) {
+            System.out.println("Great, You win!!!");
+        } else {
+            System.out.println("You've lost:(");
+        }
     }
 }
