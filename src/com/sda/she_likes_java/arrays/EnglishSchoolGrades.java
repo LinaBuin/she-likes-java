@@ -4,7 +4,9 @@ import java.util.Random;
 
 public class EnglishSchoolGrades {
 
+
     public static void main(String[] args) {
+
         int[] myGradesOnEnglishClass = new int[10000];
 
         Random gradeGenerator = new Random();
