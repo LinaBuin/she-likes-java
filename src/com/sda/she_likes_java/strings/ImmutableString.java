@@ -19,11 +19,11 @@ public class ImmutableString {
         // "Alice is 10" + years"
         // Alice is 10 years
         String alice = "Alice ";
-        StringBuilder someString = new StringBuilder();
-        someString.append("Alice");
-        someString.append("is");
-        someString.append("10");
-        someString.append("years");
+      StringBuilder someString = new StringBuilder();
+      someString.append("Alice");
+      someString.append("is");
+      someString.append("10");
+      someString.append("years");
     }
 }
 
