@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.exercise17;
+package com.sda.she_likes_java.homework.exercise_17;
 
 public class BooksFields {
 

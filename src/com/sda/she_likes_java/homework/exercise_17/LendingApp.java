@@ -1,6 +1,4 @@
-package com.sda.she_likes_java.homework.exercise17;
-
-import com.sda.she_likes_java.static_modifier.WashMachine;
+package com.sda.she_likes_java.homework.exercise_17;
 
 import java.util.Random;
 
