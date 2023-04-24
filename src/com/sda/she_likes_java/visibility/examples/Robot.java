@@ -23,6 +23,10 @@ public class Robot {
                  
                 """;
     }
+
+    private void doInternalTwiks() {
+        System.out.println("veru important stuff");
+    }
     public void moveForward() {
     xPosition++;
         System.out.println("Im moving forward");
