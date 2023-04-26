@@ -5,6 +5,10 @@ public class Main {
         CarUtils.safeCast(new Mazda());
         CarUtils.safeCast(new Ferrari());
         CarUtils.safeCast(new Toyota());
+        CarUtils.safeCast(new Car());
+
+        BWM car  = new BWM();
+
     }
 }
 
