@@ -19,14 +19,16 @@ public class Main {
         myJeans.put("my favourite jeans", new Trousers("jeans", "big star"));
         myJeans.put("my old one", new Trousers("unknow material", "primemark"));
         myJeans.put("my old one", new Trousers("unknow material", "primemark II"));
-
         printMyJeans(myJeans);
 
         Map<Person, Trousers> personsTrousers = new HashMap<>();
         personsTrousers.put(new Person("mariusz", "p."), new Trousers("polish material", "primemark"));
         personsTrousers.put(new Person("karolina", "p."), new Trousers("polish material", "primemark"));
+        System.out.println("persons trousers: " + personsTrousers);
+
 
     }
+
     public static void printMyJeans(Map<String, Trousers> trousersMap) {
         System.out.println("Let's start with known keys");
         System.out.println("key=[my favourite jeans] " + trousersMap.get("my favourite jeans"));
@@ -40,3 +42,7 @@ public class Main {
         }
     }
 }
+
+
+
+
