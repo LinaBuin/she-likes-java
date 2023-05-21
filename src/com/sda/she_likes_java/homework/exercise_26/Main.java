@@ -13,16 +13,16 @@ public class Main {
 
     public static void main(String[] args) {
         ImportantEvent myFavourite = ImportantEvent.DOG;
-        System.out.println("Labrador is : " + myFavourite.getAgeMonths()+ " month");
+        System.out.println("Labrador is puppy : " + myFavourite.getAgeMonths()+ " month");
         System.out.println("Labrador at this age likes to  : " + myFavourite.getActivity());
 
         ImportantEvent teen  = ImportantEvent.TEEN;
-        System.out.println("Labrador is : " + teen.getAgeMonths() + " month");
+        System.out.println("Labrador is teen : " + teen.getAgeMonths() + " month");
         System.out.println("Dog at this age likes to  : " + teen.getActivity());
 
 
         ImportantEvent puppy = ImportantEvent.PUPPY;
-        System.out.println("Labrador is : " + puppy.getAgeMonths()+ " month");
+        System.out.println("Labrador is dog: " + puppy.getAgeMonths()+ " month");
         System.out.println("Labrador at this age likes to  : " + puppy.getActivity());
 
         System.out.println("***********************");
