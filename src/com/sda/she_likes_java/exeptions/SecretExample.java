@@ -28,6 +28,14 @@ public class SecretExample {
             System.out.println("cannot decrypt enemy secret");
         }
 
+        System.out.println("Now with single catch");
+        try {
+            secretStorage.decrypt();
+        } catch (Exception e) {
+            System.out.println("Generic catch all :)");
+        }
+
+
     }
 }
 
