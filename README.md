@@ -8,3 +8,6 @@
 // if you omplement interface, you must override. 'Public void 'is needed to call behaviour
 
 ((Ship) ship).swim() its casting to ship
+
+
+RegexTranslator.com
