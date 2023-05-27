@@ -18,8 +18,11 @@ public class Main {
         dates.add(myBirthday);
         dates.add(daySchool);
 
-        Collections.sort(dates);
-        System.out.println("after sorting: " + dates);
+        Collections.sort(dates,
+                new comparingByDates());
+        System.out.println("after sorting by years: " + dates);
+
+
 
     }
 }
