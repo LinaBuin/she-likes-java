@@ -1,22 +1,24 @@
 package com.sda.she_likes_java.database;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class TestRecordRepository {
+
     private static final String allTestRecordsQuery = """
             SELECT ID, NAME
             FROM TEST;
+            """;
+    private  static final String addRecordQuery = """
+            INSERT INTO TEST(ID, NAME)
+                    VALUES (?, ?);
             """;
     private Connection dbConnection;
 
     public TestRecordRepository(Connection dbConnection) {
         this.dbConnection = dbConnection;
-
     }
 
     public List<TestRecord> getAllTestRowsFromDB() {
@@ -43,4 +45,21 @@ public class TestRecordRepository {
         }
 
         return records;
-    }}
+    }
+
+    public boolean storeTestRecordIntoDatabase(TestRecord dataToStore) {
+        try {
+            PreparedStatement preparedStatement = dbConnection.prepareStatement(addRecordQuery);
+            preparedStatement.setInt(1, dataToStore.getId());
+            preparedStatement.setString(2, dataToStore.getTitle());
+
+            preparedStatement.execute();
+        } catch (SQLException e) {
+            System.out.println("Unexpected exception: " + e);
+            return false;
+        }
+        return true;
+    }
+
+    }
+
