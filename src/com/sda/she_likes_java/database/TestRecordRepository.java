@@ -13,7 +13,7 @@ public class TestRecordRepository {
             """;
     private  static final String addRecordQuery = """
             INSERT INTO TEST(ID, NAME)
-                    VALUES (?, ?);
+                    VALUES (?,?);
             """;
     private Connection dbConnection;
 
