@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.database_in_memory;
 
-public class AccentureStudents {
+public class AccentureStudent {
     private Integer id;
 
     private String name;
@@ -11,7 +11,7 @@ public class AccentureStudents {
 
     private String sex;
 
-    public AccentureStudents(Integer id, String name, String surname, int studentsAge, String sex) {
+    public AccentureStudent(Integer id, String name, String surname, int studentsAge, String sex) {
         this.id = id;
         this.name = name;
         this.surname = surname;
